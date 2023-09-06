@@ -4,7 +4,7 @@
 
 **Description**:
 
-This repository provides tools for trajectory prediction and visualization within the Autoware ecosystem, integrating seamlessly with GRIP++. Using state-of-the-art prediction algorithms, this project facilitates accurate forecasting of dynamic agents in the vicinity of an autonomous vehicle, bolstered by an intuitive visualization interface provided by GRIP++.
+This repository provides tools for trajectory prediction and visualization within the Autoware ecosystem, integrating seamlessly with GRIP++. Using GRIP++, this project facilitates accurate forecasting of dynamic agents in the vicinity of an autonomous vehicle, bolstered by an intuitive visualization interface provided by Autoware.
 
 ---
 
