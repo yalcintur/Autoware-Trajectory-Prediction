@@ -28,6 +28,9 @@ This repository provides tools for trajectory prediction and visualization withi
    ```
    colcon build --symlink-install
    source install/local_setup.zsh
+   source install/setup.bash 
+   source /opt/ros/foxy/setup.bash
+   source /opt/AutowareAuto/setup.bash
    ```
 
 3. **Running Predictor Node**:
