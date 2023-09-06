@@ -1,0 +1,36 @@
+How to use ?
+
+	<Perform the following steps within the provided Docker container.>
+
+	0) To build the provided ros2 package and make the 'predictor' node available (before first use or after making changes to the source code), run the following commands in the working space directory (default: 'ws_template'):
+
+		- colcon build --symlink-install
+		- source install/local_setup.zsh
+
+	1) To start the provided 'predictor' ros2 node, use the following command:
+
+		- ros2 run predictor_template predictor
+
+		The node should now be running, but no output should be available yet.
+
+	2) Open a new terminal and start playing back the recorded sensor data using the following command:
+	
+		- ros2 bag play <path to 'tracking_data_for_prediction.bag' directory>
+
+		Use the commands shown to pause, resume, slow down or speed up the replayed data (it will take a few seconds for relevant data to be replayed). 
+
+	Optional: 3) Open a new terminal and listen to the published predictions of the 'predictor' node using the following commands:
+	
+		- ros2 topic echo prediction autoware_auto_perception_msgs/msg/PredictedObjects
+
+
+How do I modify the node? 
+
+	Your code should be inserted into the 'prediction' function of the 'DataPredictor' class located in the 'data_predictor.py' file in the 'src/predictor_template/predictor_template' directory. Then execute step 0) to rebuild the ros2 node. 
+
+	The messages/data points received from the rosbag (stored previously recorded sensor data) to be used for the predictions will be of either 'autoware_auto_perception_msgs/msg/TrackedObjects' or 'autoware_auto_perception_msgs/msg/DetectedObjects' type.
+
+	The structure of the 'TrackedObjects', 'TrackedObject', 'DetectedObjects' and 'DetectedObject' message types can be found in the autoware documentation (e.g. https://autowarefoundation.gitlab.io/autoware.auto/AutowareAuto/classautoware_1_1perception_1_1tracking_1_1_tracked_object.html) or in the corresponding files in the msg directory of the 'https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/tree/master/autoware_auto_perception_msgs/msg' repository.
+
+	Your published predictions should be of type 'autoware_auto_perception_msgs/msg/PredictedObjects' (see autoware documentation or repository files). 
+	

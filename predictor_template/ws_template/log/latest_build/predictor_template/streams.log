@@ -1,0 +1,24 @@
+[1.726s] Invoking command in '/home/tp3/src/intern_task/ws_template/build/predictor_template': PYTHONPATH=/home/tp3/src/intern_task/ws_template/build/predictor_template/prefix_override:/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tp3/src/intern_task/ws_template/build/predictor_template/build --no-deps install_data
+[2.147s] running develop
+[2.340s] running egg_info
+[2.340s] creating predictor_template.egg-info
+[2.340s] writing predictor_template.egg-info/PKG-INFO
+[2.341s] writing dependency_links to predictor_template.egg-info/dependency_links.txt
+[2.341s] writing entry points to predictor_template.egg-info/entry_points.txt
+[2.341s] writing requirements to predictor_template.egg-info/requires.txt
+[2.341s] writing top-level names to predictor_template.egg-info/top_level.txt
+[2.341s] writing manifest file 'predictor_template.egg-info/SOURCES.txt'
+[2.343s] reading manifest file 'predictor_template.egg-info/SOURCES.txt'
+[2.343s] writing manifest file 'predictor_template.egg-info/SOURCES.txt'
+[2.347s] running build_ext
+[2.347s] Creating /home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages/predictor-template.egg-link (link to .)
+[2.348s] Installing predictor script to /home/tp3/src/intern_task/ws_template/install/predictor_template/lib/predictor_template
+[2.348s] 
+[2.348s] Installed /home/tp3/src/intern_task/ws_template/build/predictor_template
+[2.348s] running install_data
+[2.349s] creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index
+[2.349s] creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index
+[2.349s] creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+[2.349s] copying resource/predictor_template -> /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+[2.349s] copying package.xml -> /home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template
+[2.380s] Invoked command in '/home/tp3/src/intern_task/ws_template/build/predictor_template' returned '0': PYTHONPATH=/home/tp3/src/intern_task/ws_template/build/predictor_template/prefix_override:/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tp3/src/intern_task/ws_template/build/predictor_template/build --no-deps install_data

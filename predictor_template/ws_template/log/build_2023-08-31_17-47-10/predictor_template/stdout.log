@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/predictor_template/predictor_template.egg-info/PKG-INFO
+writing dependency_links to ../../build/predictor_template/predictor_template.egg-info/dependency_links.txt
+writing entry points to ../../build/predictor_template/predictor_template.egg-info/entry_points.txt
+writing requirements to ../../build/predictor_template/predictor_template.egg-info/requires.txt
+writing top-level names to ../../build/predictor_template/predictor_template.egg-info/top_level.txt
+reading manifest file '../../build/predictor_template/predictor_template.egg-info/SOURCES.txt'
+writing manifest file '../../build/predictor_template/predictor_template.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build
+creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib
+creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+copying predictor_template/__init__.py -> /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+copying predictor_template/data_predictor.py -> /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+running install
+running install_lib
+creating /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+copying /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template/__init__.py -> /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+copying /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template/data_predictor.py -> /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+byte-compiling /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template/data_predictor.py to data_predictor.cpython-38.pyc
+running install_data
+copying resource/predictor_template -> /home/gorgor/predictor_template/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+copying package.xml -> /home/gorgor/predictor_template/ws_template/install/predictor_template/share/predictor_template
+running install_egg_info
+Copying ../../build/predictor_template/predictor_template.egg-info to /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template-0.0.0-py3.8.egg-info
+running install_scripts
+Installing predictor script to /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/predictor_template
+writing list of installed files to '/home/gorgor/predictor_template/ws_template/build/predictor_template/install.log'

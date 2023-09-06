@@ -1,0 +1,45 @@
+[0.374s] Invoking command in '/home/gorgor/predictor_template/ws_template/src/predictor_template': PYTHONPATH=/home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/predictor_template build --build-base /home/gorgor/predictor_template/ws_template/build/predictor_template/build install --prefix /home/gorgor/predictor_template/ws_template/install/predictor_template --record /home/gorgor/predictor_template/ws_template/build/predictor_template/install.log --single-version-externally-managed
+[0.471s] running egg_info
+[0.476s] writing ../../build/predictor_template/predictor_template.egg-info/PKG-INFO
+[0.476s] writing dependency_links to ../../build/predictor_template/predictor_template.egg-info/dependency_links.txt
+[0.477s] writing entry points to ../../build/predictor_template/predictor_template.egg-info/entry_points.txt
+[0.477s] writing requirements to ../../build/predictor_template/predictor_template.egg-info/requires.txt
+[0.477s] writing top-level names to ../../build/predictor_template/predictor_template.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/predictor_template/predictor_template.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '../../build/predictor_template/predictor_template.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.525s] running build_py
+[0.525s] creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build
+[0.525s] creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib
+[0.525s] creating /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+[0.525s] copying predictor_template/__init__.py -> /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+[0.525s] copying predictor_template/data_predictor.py -> /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template
+[0.525s] running install
+[0.526s] /home/gorgor/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.526s] !!
+[0.526s] 
+[0.526s]         ********************************************************************************
+[0.526s]         Please avoid running ``setup.py`` directly.
+[0.526s]         Instead, use pypa/build, pypa/installer or other
+[0.526s]         standards-based tools.
+[0.526s] 
+[0.526s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.526s]         ********************************************************************************
+[0.526s] 
+[0.526s] !!
+[0.526s]   self.initialize_options()
+[0.529s] running install_lib
+[0.535s] creating /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+[0.535s] copying /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template/__init__.py -> /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+[0.535s] copying /home/gorgor/predictor_template/ws_template/build/predictor_template/build/lib/predictor_template/data_predictor.py -> /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template
+[0.535s] byte-compiling /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template/__init__.py to __init__.cpython-38.pyc
+[0.535s] byte-compiling /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template/data_predictor.py to data_predictor.cpython-38.pyc
+[0.536s] running install_data
+[0.541s] copying resource/predictor_template -> /home/gorgor/predictor_template/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+[0.541s] copying package.xml -> /home/gorgor/predictor_template/ws_template/install/predictor_template/share/predictor_template
+[0.541s] running install_egg_info
+[0.547s] Copying ../../build/predictor_template/predictor_template.egg-info to /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages/predictor_template-0.0.0-py3.8.egg-info
+[0.547s] running install_scripts
+[0.573s] Installing predictor script to /home/gorgor/predictor_template/ws_template/install/predictor_template/lib/predictor_template
+[0.573s] writing list of installed files to '/home/gorgor/predictor_template/ws_template/build/predictor_template/install.log'
+[0.586s] Invoked command in '/home/gorgor/predictor_template/ws_template/src/predictor_template' returned '0': PYTHONPATH=/home/gorgor/predictor_template/ws_template/install/predictor_template/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/predictor_template build --build-base /home/gorgor/predictor_template/ws_template/build/predictor_template/build install --prefix /home/gorgor/predictor_template/ws_template/install/predictor_template --record /home/gorgor/predictor_template/ws_template/build/predictor_template/install.log --single-version-externally-managed

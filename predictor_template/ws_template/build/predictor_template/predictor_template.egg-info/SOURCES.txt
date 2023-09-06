@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/predictor_template/predictor_template.egg-info/PKG-INFO
+../../build/predictor_template/predictor_template.egg-info/SOURCES.txt
+../../build/predictor_template/predictor_template.egg-info/dependency_links.txt
+../../build/predictor_template/predictor_template.egg-info/entry_points.txt
+../../build/predictor_template/predictor_template.egg-info/requires.txt
+../../build/predictor_template/predictor_template.egg-info/top_level.txt
+../../build/predictor_template/predictor_template.egg-info/zip-safe
+predictor_template/__init__.py
+predictor_template/data_predictor.py
+resource/predictor_template
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

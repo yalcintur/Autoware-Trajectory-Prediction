@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating predictor_template.egg-info
+writing predictor_template.egg-info/PKG-INFO
+writing dependency_links to predictor_template.egg-info/dependency_links.txt
+writing entry points to predictor_template.egg-info/entry_points.txt
+writing requirements to predictor_template.egg-info/requires.txt
+writing top-level names to predictor_template.egg-info/top_level.txt
+writing manifest file 'predictor_template.egg-info/SOURCES.txt'
+reading manifest file 'predictor_template.egg-info/SOURCES.txt'
+writing manifest file 'predictor_template.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages/predictor-template.egg-link (link to .)
+Installing predictor script to /home/tp3/src/intern_task/ws_template/install/predictor_template/lib/predictor_template
+
+Installed /home/tp3/src/intern_task/ws_template/build/predictor_template
+running install_data
+creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index
+creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index
+creating /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+copying resource/predictor_template -> /home/tp3/src/intern_task/ws_template/install/predictor_template/share/ament_index/resource_index/packages
+copying package.xml -> /home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template

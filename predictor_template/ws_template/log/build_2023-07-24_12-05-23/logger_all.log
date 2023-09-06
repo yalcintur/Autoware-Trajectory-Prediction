@@ -1,0 +1,136 @@
+[0.411s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.411s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4a6780ddb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4a67a8fc70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4a67a8fc70>>, mixin_verb=('build',))
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.444s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tp3/src/intern_task/ws_template'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/predictor_template) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/predictor_template' with type 'ros.ament_python' and name 'predictor_template'
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tp3/src/intern_task/ws_template/install/predictor_template' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tp3/src/intern_task/ws_template/install
+[0.531s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/tp3/install
+[0.541s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /autoware/install
+[0.550s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'predictor_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'predictor_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tp3/src/intern_task/ws_template/build/predictor_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tp3/src/intern_task/ws_template/install/predictor_template', 'merge_install': False, 'path': '/home/tp3/src/intern_task/ws_template/src/predictor_template', 'symlink_install': True, 'test_result_base': None}
+[0.660s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.665s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tp3/src/intern_task/ws_template/src/predictor_template' with build type 'ament_python'
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('predictor_template', 'ament_prefix_path')
+[0.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/ament_prefix_path.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/ament_prefix_path.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/ament_prefix_path.sh'
+[0.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tp3/src/intern_task/ws_template/src/predictor_template'
+[1.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tp3/src/intern_task/ws_template/build/predictor_template': PYTHONPATH=/home/tp3/src/intern_task/ws_template/build/predictor_template/prefix_override:/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tp3/src/intern_task/ws_template/build/predictor_template/build --no-deps install_data
+[3.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('predictor_template', 'pythonpath_develop')
+[3.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/build/predictor_template/share/predictor_template/hook/pythonpath_develop.ps1'
+[3.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tp3/src/intern_task/ws_template/build/predictor_template' returned '0': PYTHONPATH=/home/tp3/src/intern_task/ws_template/build/predictor_template/prefix_override:/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tp3/src/intern_task/ws_template/build/predictor_template/build --no-deps install_data
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tp3/src/intern_task/ws_template/build/predictor_template/share/predictor_template/hook/pythonpath_develop.dsv'
+[3.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/build/predictor_template/share/predictor_template/hook/pythonpath_develop.sh'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template' for CMake module files
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template' for CMake config files
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template/lib'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template/bin'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/pkgconfig/predictor_template.pc'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template/lib/python3.10/site-packages'
+[3.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('predictor_template', 'pythonpath')
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/pythonpath.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/pythonpath.dsv'
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/hook/pythonpath.sh'
+[3.058s] Level 1:colcon.colcon_core.environment:checking '/home/tp3/src/intern_task/ws_template/install/predictor_template/bin'
+[3.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(predictor_template)
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/package.ps1'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/package.dsv'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/package.sh'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/package.bash'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/tp3/src/intern_task/ws_template/install/predictor_template/share/predictor_template/package.zsh'
+[3.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tp3/src/intern_task/ws_template/install/predictor_template/share/colcon-core/packages/predictor_template)
+[3.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.063s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.078s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.080s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.080s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tp3/src/intern_task/ws_template/install/local_setup.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tp3/src/intern_task/ws_template/install/_local_setup_util_ps1.py'
+[3.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tp3/src/intern_task/ws_template/install/setup.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tp3/src/intern_task/ws_template/install/local_setup.sh'
+[3.099s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tp3/src/intern_task/ws_template/install/_local_setup_util_sh.py'
+[3.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tp3/src/intern_task/ws_template/install/setup.sh'
+[3.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tp3/src/intern_task/ws_template/install/local_setup.bash'
+[3.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tp3/src/intern_task/ws_template/install/setup.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tp3/src/intern_task/ws_template/install/local_setup.zsh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tp3/src/intern_task/ws_template/install/setup.zsh'

@@ -1,0 +1,3 @@
+[console_scripts]
+predictor = predictor_template.data_predictor:main
+
