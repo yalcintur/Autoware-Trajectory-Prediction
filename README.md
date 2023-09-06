@@ -70,10 +70,6 @@ We welcome contributions! Please follow our contribution guidelines to ensure a 
 
 **Demo:**
 
-
-[![Demo]          // Title
-(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] // Thumbnail
-(https://www.youtube.com/watch?v=__JSOTbNtgE "Demo")    // Video Link
----
+[![Demo]([https://img.youtube.com/vi/VID/0.jpg](https://github.com/yalcintur/Autoware-Trajectory-Prediction/assets/42304303/ff40f8c2-aedd-4f0b-b91f-86013b00e985))](https://www.youtube.com/watch?v=VID)
 
 This project marries the prowess of Autoware's trajectory prediction with the visualization brilliance of Grip++, promising a comprehensive solution for autonomous vehicle applications that demand both accuracy and clarity in trajectory forecasting.
