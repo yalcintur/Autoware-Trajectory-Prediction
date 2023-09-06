@@ -68,8 +68,7 @@ For a deep dive into the structure of message types, consult the [autoware docum
 We welcome contributions! Please follow our contribution guidelines to ensure a smooth collaboration process.
 ![Screenshot from 2023-09-06 15-58-32](https://github.com/yalcintur/Autoware-Trajectory-Prediction/assets/42304303/ff40f8c2-aedd-4f0b-b91f-86013b00e985)
 
-**Demo:**
 
-[![Demo]([https://img.youtube.com/vi/VID/0.jpg](https://github.com/yalcintur/Autoware-Trajectory-Prediction/assets/42304303/ff40f8c2-aedd-4f0b-b91f-86013b00e985))](https://www.youtube.com/watch?v=VID)
+[![Demo Video]([https://img.youtube.com/vi/VID/0.jpg](https://github.com/yalcintur/Autoware-Trajectory-Prediction/assets/42304303/ff40f8c2-aedd-4f0b-b91f-86013b00e985))](https://www.youtube.com/watch?v=__JSOTbNtgE)
 
 This project marries the prowess of Autoware's trajectory prediction with the visualization brilliance of Grip++, promising a comprehensive solution for autonomous vehicle applications that demand both accuracy and clarity in trajectory forecasting.
